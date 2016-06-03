@@ -101,7 +101,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     }
 
     /**
-     * Re crate database Delete all tables and create them again
+     * Recreate database Delete all tables and create them again
      * */
     public void deleteUsers() {
         SQLiteDatabase db = this.getWritableDatabase();
